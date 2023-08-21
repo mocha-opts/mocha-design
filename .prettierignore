@@ -1,0 +1,14 @@
+.snapshots/
+build/
+dist/
+node_modules/
+.next/
+.vercel/
+.turbo/
+.umi/
+.history/
+.demo/
+.renderer/
+pnpm-lock.yaml
+.github/
+.history/
