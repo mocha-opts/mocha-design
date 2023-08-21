@@ -1,4 +1,4 @@
-# @mocha-design/tsconfig
+# @coconut-killer/tsconfig
 
 ## 0.0.1
 

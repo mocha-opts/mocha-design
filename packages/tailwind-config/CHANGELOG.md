@@ -1,4 +1,4 @@
-# @mocha-design/tailwind-config
+# @coconut-killer/tailwind-config
 
 ## 0.0.1
 

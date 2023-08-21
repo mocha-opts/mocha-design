@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["@mocha-design/eslint-config"],
+  extends: ["@coconut-killer/eslint-config"],
 };

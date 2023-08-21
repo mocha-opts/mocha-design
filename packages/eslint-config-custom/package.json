@@ -1,5 +1,5 @@
 {
-  "name": "@mocha-design/eslint-config",
+  "name": "@coconut-killer/eslint-config",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",

@@ -1,4 +1,4 @@
-# @mocha-design/eslint-config
+# @coconut-killer/eslint-config
 
 ## 0.0.1
 

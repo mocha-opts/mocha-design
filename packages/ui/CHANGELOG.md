@@ -1,4 +1,4 @@
-# @mocha-design/ui
+# @coconut-killer/ui
 
 ## 0.0.1
 

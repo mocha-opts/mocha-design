@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@mocha-design/ui",
+  "name": "@coconut-killer/ui",
   "version": "0.0.0",
   "packageManager": "pnpm@8.6.10",
   "description": "",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "eslint": "^8.46.0",
-    "@mocha-design/eslint-config": "workspace:*",
+    "@coconut-killer/eslint-config": "workspace:*",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.1",

@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mocha-design/ui": "workspace:^",
+    "@coconut-killer/ui": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -22,8 +22,8 @@
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
     "eslint": "^8.45.0",
-    "@mocha-design/eslint-config": "workspace:*",
-    "@mocha-design/tsconfig": "workspace:*",
+    "@coconut-killer/eslint-config": "workspace:*",
+    "@coconut-killer/tsconfig": "workspace:*",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",

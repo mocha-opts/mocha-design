@@ -5,4 +5,4 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @mocha-design/ui@0.0.1
+  - @coconut-killer/ui@0.0.1

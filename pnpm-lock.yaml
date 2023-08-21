@@ -11,7 +11,7 @@ importers:
       '@changesets/cli':
         specifier: ^2.26.2
         version: 2.26.2
-      '@mocha-design/eslint-config':
+      '@coconut-killer/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config-custom
       eslint:
@@ -32,7 +32,7 @@ importers:
 
   apps/vite-react-project:
     dependencies:
-      '@mocha-design/ui':
+      '@coconut-killer/ui':
         specifier: workspace:^
         version: link:../../packages/ui
       react:
@@ -42,10 +42,10 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@mocha-design/eslint-config':
+      '@coconut-killer/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
-      '@mocha-design/tsconfig':
+      '@coconut-killer/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/react':
@@ -146,13 +146,13 @@ importers:
       '@babel/runtime':
         specifier: ^7.14.5
         version: 7.22.10
-      '@mocha-design/eslint-config':
+      '@coconut-killer/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config-custom
-      '@mocha-design/tailwind-config':
+      '@coconut-killer/tailwind-config':
         specifier: workspace:*
         version: link:../tailwind-config
-      '@mocha-design/tsconfig':
+      '@coconut-killer/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@rollup/plugin-babel':

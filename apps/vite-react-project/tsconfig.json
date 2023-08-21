@@ -2,7 +2,7 @@
   "include": [
     "src"
   ],
-  "extends": "@mocha-design/tsconfig/base.json",
+  "extends": "@coconut-killer/tsconfig/base.json",
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
