@@ -1,5 +1,5 @@
 {
-  "extends": "@coconut-killer/tsconfig/react-library.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "module": "esnext",
     "isolatedModules": true,
