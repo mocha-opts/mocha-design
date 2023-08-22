@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "packageManager": "pnpm@8.6.10",
   "description": "",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
   "engines": {
     "node": ">=16"
   },
@@ -16,15 +13,18 @@
     ]
   },
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev --no-cache --continue",
+    "build": "turbo build --filter=!./apps/*",
+    "dev": "turbo dev --no-cache --continue --filter=!./apps/*",
     "lint": "turbo lint",
     "clean": "turbo clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo build --filter=docs^... && changeset publish",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "version:dev": "changeset version --snapshot dev",
+    "release:dev": "changeset publish --tag dev"
   },
   "keywords": [],
   "author": "",
