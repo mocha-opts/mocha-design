@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_coconut_killer_ui=self.webpackChunk_coconut_killer_ui||[]).push([[371],{83371:function(r,o,n){n.r(o),n.d(o,{Foo:function(){return c}});var i=n(2784),u=n(52322),t=function(l){return(0,u.jsx)("h4",{children:l.title})},c=t}}]);
