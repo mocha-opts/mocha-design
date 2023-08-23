@@ -1,6 +1,6 @@
 {
   "name": "@coconut-killer/ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An infrastructure monorepo ui library for all front-end apps.",
   "publishConfig": {
     "access": "public",
