@@ -12,6 +12,7 @@
       "eslint --fix"
     ]
   },
+  "homepage": "https://mocha-opts.github.io/mocha-design",
   "scripts": {
     "build": "turbo build --filter=!./apps/*",
     "build:docs":"pnpm  --filter=*@coconut-killer/ui docs:build",
