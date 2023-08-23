@@ -33,7 +33,7 @@ jobs:
         shell: bash
         run: |
           git config --global user.email "1424392205@qq.com"
-          git config --global user.name "coconut"
+          git config --global user.name "mocha-opts"
 
       - name: Install Dependencies
         run: pnpm i
