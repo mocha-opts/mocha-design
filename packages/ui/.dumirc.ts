@@ -5,4 +5,6 @@ export default defineConfig({
   themeConfig: {
     name: '@coconut-killer/ui',
   },
+  publicPath:'/mocha-design/',
+  base: '/mocha-design/',
 });
