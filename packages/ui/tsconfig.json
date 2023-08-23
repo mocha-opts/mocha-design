@@ -1,11 +1,19 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "module": "esnext",
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react"
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "@coconut-killer/ui": ["src"],
+      "@coconut-killer/ui/*": ["src/*", "*"]
+    }
   },
-  "include": ["react", "vue"],
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"],
   "exclude": ["dist", "build", "es", "lib", "node_modules"]
+
 }

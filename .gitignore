@@ -134,3 +134,5 @@ dist
 
 packages/ui/es
 packages/ui/lib
+.dumi
+docs-dist

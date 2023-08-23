@@ -14,6 +14,8 @@
   },
   "scripts": {
     "build": "turbo build --filter=!./apps/*",
+    "build:docs":"pnpm  --filter=*@coconut-killer/ui docs:build",
+    "deploy:docs":"pnpm  --filter=*@coconut-killer/ui docs:deploy",
     "dev": "turbo dev --no-cache --continue --filter=!./apps/*",
     "lint": "turbo lint",
     "clean": "turbo clean && rm -rf node_modules",

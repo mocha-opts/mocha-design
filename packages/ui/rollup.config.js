@@ -9,7 +9,7 @@ import { name } from './package.json'
 
 export default defineConfig([
   {
-    input: './react/index.tsx',
+    input: 'src/index.ts',
     external: ['react', 'react-dom'],
     plugins: [
       typescript(),
@@ -44,7 +44,7 @@ export default defineConfig([
     output: [
       {
         name,
-        file: './dist/react/index.js',
+        file: './dist/index.js',
         format: 'umd',
         globals: {
           react: 'React',
@@ -53,12 +53,12 @@ export default defineConfig([
       },
       {
         name,
-        file: './es/react/index.js',
+        file: './es/index.js',
         format: 'es'
       },
       {
         name,
-        file: './lib/react/index.cjs',
+        file: './lib/index.cjs',
         format: 'commonjs'
       }
     ]
