@@ -26,7 +26,7 @@
     "start": "npm run dev",
     "docs:build": "dumi build",
     "docs:prepare": "dumi setup",
-    "docs:deploy": "gh-pages -d docs-dist -u coconut-killer",
+    "docs:deploy": "gh-pages -d docs-dist -u mocha-opts<1424392205@qq.com>",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "father-build": "father build",
     "father-build:watch": "father dev",
